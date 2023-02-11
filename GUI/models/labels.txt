@@ -1,0 +1,7 @@
+0 Plastic
+1 Metal
+2 Paper
+3 Glass
+4 Cardboard
+5 Background
+6 Non-Recyclable
