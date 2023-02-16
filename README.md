@@ -1,7 +1,15 @@
 # School-Waste-Reduction-System
 
-## Overview
-This software is a monitoring system designed to reduce waste and save energy in a school. The code imports various libraries for image processing, including OpenCV, NumPy, and PIL. It also imports a pre-trained model for waste classification using Keras and a YOLO object detection model for counting the number of people in a classroom.
+## Abstract
+Please note that this software is not made for personal use, but it is directed for organizations like school to reduce waste and save energy. It covers the field of AI (particularly computer vision) and IoT, whereas it aims to create a smart system to help ensure sustainable living.
+
+It is suggested to watch the 1 min short video clip attached, to grab a better understanding of this project. 
+
+The lighting system can be implemented on CCTV cameras of classrooms, and the smart system can automatically decide when to turn the lights ON or OFF, depending whether there are people in the room. 
+
+While the Waste Classifier can be applied in the canteen, since it holds the majority and most variety of school waste. A special-machine equipped trash can with a camera device on top can be installed on a designated spot. And when students throw their trash into it, the AI system will automatically classify the trash, and sort it to the corresponding type of trash bag. For example, a soda can will be sorted into a metal-containing trash bag.
+
+This software is used to monitor and observe the performance of the smart AI system, to be implemented at school.
 
 ## People Counter
 The folder '/People Counter' contains the code for YOLOv8 Object Detection, which will draw a bounding box around a person in the webcam image.
@@ -10,6 +18,8 @@ For more information about YOLOv8, please refer to the following documentation f
 ## Waste Classifier
 The folder '/Waste Classifier' contains the teachable machine file ('AI Waste Classifier.tm'), which already contain the dataset for training. This file can be viewed by opening it from this website: https://teachablemachine.withgoogle.com/train/image
 The dataset has been taken from Trashnet: https://github.com/garythung/trashnet
+
+NOTE: This model is specifically trained to resemble a trash can interior environment, so one thing to note: please change the background images data to your particular use case. Here, I have chosen the color marble green, because black/silver has a color similar to metal, and white similar to paper, so it may affect the prediction results.
 
 '/Evaluation Metrics' contains the Metrics evaluated from testing data. 
 'image.py' will classify the images from '/testing_images'. While 'webcam.py' will classify images directly from webcam stream. 
