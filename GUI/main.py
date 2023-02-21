@@ -146,14 +146,14 @@ def display_page2():
         # If there is at least one person in classroom
         if counter >= 1:
             # Increments duration of the person staying in the room
-            if duration < 30:
+            if duration < 10:
                 duration += 1
         else: # If there is no person in classroom
             if duration > 0:
                 # Decrements duration of the person leaving the room
                 duration -= 1
         # Wait for some time, then turn on lights
-        if duration == 30:
+        if duration == 10:
             light_status.set('Lights: ON')
         # Wait for some time, then turn off lights
         elif duration == 0:
