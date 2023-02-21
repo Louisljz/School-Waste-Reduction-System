@@ -5,7 +5,7 @@ Please note that this software is not made for personal use, but it is directed 
 
 This AI-IoT Smart system will be integrated with robotics to classify school waste and automate classroom lighting system.
 
-It is suggested to watch the 1 minute short video clip attached ('Software Demo.mp4'), to grab a better understanding of this project. 
+It is suggested to watch the 1 minute short video clip attached ('Software Demo.mp4'), to grab a better understanding of this project. Here is the GDrive Video Link: https://drive.google.com/file/d/1hNFKSZCV3KtsUrZ3P0VC7YyX6W5MVrJT/view?usp=sharing
 
 The lighting system can be implemented on CCTV cameras of classrooms, and the smart system can automatically decide when to turn the lights ON or OFF, depending whether there are people in the room. 
 
